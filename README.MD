@@ -165,3 +165,5 @@ print('Keparahan Kanker Paru-Paru Pasien Berada di Tingkat Rendah')
 ## Deployment
 
   [App](https://pembelajaranmesin-lgvbhzfkthzbmshpdbz7tx.streamlit.app/)
+
+  ![Alt text](gambar3.png)

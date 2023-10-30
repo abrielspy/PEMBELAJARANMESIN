@@ -4,7 +4,7 @@
 ### Kelas : Pagi B
 
 ## Domain Proyek
-Proyek ini bertujuan untuk melakukan prediksi dan analisis terkait kanker paru-paru. Data yang digunakan mencakup informasi tentang pasien, termasuk riwayat medis, faktor-faktor risiko, dan gejala yang dialami. Tujuan dari proyek ini adalah untuk mengembangkan model prediksi yang dapat membantu dalam menentukan tingkat keparahan kanker paru-paru pada pasien. Analisis ini bertujuan untuk memahami faktor-faktor yang berkontribusi terhadap risiko kanker paru-paru, serta memprediksi tingkat keparahan berdasarkan data pasien. Hasil dari proyek ini dapat membantu dalam diagnosis dini dan perencanaan perawatan pasien kanker paru-paru.
+Proyek ini bertujuan untuk melakukan prediksi dan analisis terkait kanker paru-paru. Data yang digunakan mencakup informasi tentang pasien, termasuk riwayat medis, faktor-faktor risiko, dan gejala yang dialami. Tujuan dari proyek ini adalah untuk mengembangkan model prediksi yang dapat membantu dalam menentukan ti bngkat keparahan kanker paru-paru pada pasien. Analisis ini bertujuan untuk memahami faktor-faktor yang berkontribusi terhadap risiko kanker paru-paru, serta memprediksi tingkat keparahan berdasarkan data pasien. Hasil dari proyek ini dapat membantu dalam diagnosis dini dan perencanaan perawatan pasien kanker paru-paru.
 
 ## Business Understanding
 Pada tahap ini, kita perlu memahami aspek-aspek penting dari penyakit kanker paru-paru, termasuk faktor-faktor risiko yang berkontribusi terhadap kemunculan penyakit ini, serta gejala-gejala yang mungkin dialami oleh pasien. Selain itu, penting untuk mengetahui bagaimana informasi medis dan data pasien dapat digunakan untuk memprediksi tingkat keparahan kanker paru-paru. Proyek ini memiliki tujuan untuk mengembangkan model prediksi yang akurat untuk membantu dalam diagnosis dini dan penentuan tingkat keparahan kanker paru-paru pada pasien. Analisis ini bertujuan untuk memahami kontribusi faktor-faktor risiko terhadap penyakit, serta cara efektif dalam meramalkan tingkat keparahan berdasarkan data pasien. Hasil dari proyek ini diharapkan akan membantu dalam perencanaan perawatan yang lebih baik dan memberikan manfaat nyata bagi pasien yang terkena penyakit kanker paru-paru.
@@ -103,7 +103,7 @@ Y = df['Level']
 x_train, x_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, stratify=Y, random_state=2)
 print(X.shape, x_train.shape, x_test.shape)
 ```
-
+## Modeling
 lalu kita akan membuat sebuah objek DecisionTreeClassifier, yang merupakan model pohon keputusan untuk tugas klasifikasi.
 ``` bash
 desicion = DecisionTreeClassifier(
@@ -145,6 +145,7 @@ filled = True)
 ```
 ![Alt text](gambar2.png) <br>
 
+## Evaluasi
 Code program ini  digunakan untuk memprediksi tingkat keparahan kanker paru-paru berdasarkan data masukan.
 ``` bash
 input_data = (1,17,1,3,1,5,3,4,2,2,2,2,4,2,3,1,3,7,8,6,2,7)

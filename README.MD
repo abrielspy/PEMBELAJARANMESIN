@@ -129,7 +129,7 @@ print('Akurasi data testing : ', test_data_accuracy)
 Akurasi data training :  0.99125
 Akurasi data testing :  0.985
 
-Code program ini digunakan untuk membuat grafik pie (pie chart) yang menggambarkan peluang kanker paru-paru berdasarkan tingkat polusi udara.Hasilnya adalah grafik pie yang menggambarkan proporsi dari tingkat polusi udara yang berkontribusi terhadap peluang terkena kanker paru-paru.
+kita akan membuat grafik pie (pie chart) yang menggambarkan peluang kanker paru-paru berdasarkan tingkat polusi udara.Hasilnya adalah grafik pie yang menggambarkan proporsi dari tingkat polusi udara yang berkontribusi terhadap peluang terkena kanker paru-paru.
 ``` bash
 plt.figure(figsize = (11, 9))
 plt.title("Lung Cancer Chances Due to Air Polution")
@@ -138,7 +138,7 @@ plt.legend(title = "Lung Cancer Chances", loc = "lower left")
 ```
 ![Alt text](gambar1.png) <br>
 
-Code program ini digunakan untuk membuat dan menampilkan visualisasi pohon keputusan (decision tree).
+ini digunakan untuk membuat dan menampilkan visualisasi pohon keputusan (decision tree).
 ``` bash
 fig = plt.figure(figsize=(25, 25))
 _ = tree.plot_tree(
@@ -150,7 +150,7 @@ filled = True)
 ![Alt text](gambar2.png) <br>
 
 ## Evaluasi
-Code program ini  digunakan untuk memprediksi tingkat keparahan kanker paru-paru berdasarkan data masukan.
+Disini kita akan memprediksi tingkat keparahan kanker paru-paru berdasarkan data masukan.
 ``` bash
 input_data = (1,17,1,3,1,5,3,4,2,2,2,2,4,2,3,1,3,7,8,6,2,7)
 input_data_numpy = np.asarray(input_data)

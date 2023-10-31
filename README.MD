@@ -120,11 +120,15 @@ selanjutnya kita akan mengukur akurasi dari model yang kita gunakan
 ``` bash
 x_train_predict = model.predict(x_train)
 training_data_accuracy = accuracy_score(x_train_predict, y_train)
+print('Akurasi data trainin: ', training_data_accuracy)
 
 x_test_predict = model.predict(x_test)
 test_data_accuracy = accuracy_score(x_test_predict, y_test)
 print('Akurasi data testing : ', test_data_accuracy)
 ```
+Akurasi data training :  0.99125
+Akurasi data testing :  0.985
+
 Code program ini digunakan untuk membuat grafik pie (pie chart) yang menggambarkan peluang kanker paru-paru berdasarkan tingkat polusi udara.Hasilnya adalah grafik pie yang menggambarkan proporsi dari tingkat polusi udara yang berkontribusi terhadap peluang terkena kanker paru-paru.
 ``` bash
 plt.figure(figsize = (11, 9))
